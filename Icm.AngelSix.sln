@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET", ".NET", "{F03D5609-F218-4058-BEE6-2EBFC32996AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NetFramework", ".NetFramework", "{BBCF2404-D93A-43AC-8082-F87EB15E6680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngelSix.SolidWorksApi.AddinInstaller", ".NetFramework\AngelSix.SolidWorksApi.AddinInstaller\AngelSix.SolidWorksApi.AddinInstaller.csproj", "{09432F0F-4769-47AD-861E-3A88E66EB86C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icm.AngelSix.SolidWorksApi.AddinInstaller", "Tools\Addin Installer\.NET\AngelSix.SolidWorksApi.AddinInstaller\Icm.AngelSix.SolidWorksApi.AddinInstaller.csproj", "{FEE7A0F6-F230-20C2-1538-8BD2A071DC3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngelSix.SolidWorksApi.AddinInstaller", "Tools\Addin Installer\.NetFramework\AngelSix.SolidWorksApi.AddinInstaller\AngelSix.SolidWorksApi.AddinInstaller.csproj", "{9E205342-D923-4A1B-ABAC-46A9A707D36E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09432F0F-4769-47AD-861E-3A88E66EB86C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09432F0F-4769-47AD-861E-3A88E66EB86C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09432F0F-4769-47AD-861E-3A88E66EB86C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09432F0F-4769-47AD-861E-3A88E66EB86C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEE7A0F6-F230-20C2-1538-8BD2A071DC3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE7A0F6-F230-20C2-1538-8BD2A071DC3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE7A0F6-F230-20C2-1538-8BD2A071DC3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE7A0F6-F230-20C2-1538-8BD2A071DC3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E205342-D923-4A1B-ABAC-46A9A707D36E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E205342-D923-4A1B-ABAC-46A9A707D36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E205342-D923-4A1B-ABAC-46A9A707D36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E205342-D923-4A1B-ABAC-46A9A707D36E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09432F0F-4769-47AD-861E-3A88E66EB86C} = {BBCF2404-D93A-43AC-8082-F87EB15E6680}
+		{FEE7A0F6-F230-20C2-1538-8BD2A071DC3E} = {F03D5609-F218-4058-BEE6-2EBFC32996AB}
+		{9E205342-D923-4A1B-ABAC-46A9A707D36E} = {BBCF2404-D93A-43AC-8082-F87EB15E6680}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3969EB1-4AB8-4470-93E7-72163DE39E72}
+	EndGlobalSection
+EndGlobal
